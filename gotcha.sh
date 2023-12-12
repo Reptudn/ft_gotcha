@@ -5,3 +5,4 @@ if [$(whoami) == "jkauker" || $(whoami) == "nsabia"] then
 	exit 1
 fi
 
+echo "You are now in the matrix"
