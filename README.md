@@ -6,3 +6,6 @@ them before the troll
 
 and them after the troll
 ![](https://as1.ftcdn.net/v2/jpg/01/00/91/46/1000_F_100914618_skL9dhV1ifZH2igikESNHdu5dTXtK7f2.jpg)
+
+meanwhile all the others in the cluster:
+![](https://openseauserdata.com/files/8ba01f1e538670884a8e15ac2dfd9574.jpg)
