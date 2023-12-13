@@ -2,6 +2,7 @@
 
 if [$(whoami) == "jkauker" || $(whoami) == "nsabia"] then
 	say -v Amelie "You cant troll me!"
+	rm ~/gotcha.sh	
 	exit 1
 fi
 
@@ -24,7 +25,12 @@ else
     osascript -e "set Volume 0"
 fi
 
-#text
+#text and pidkills
+pid_vscode=$(pgrep -i "Code")
+pid_chrome=$(pgrep -i "google-chrome")
+pid_firefox=$(pgrep -i "firefox")
+pid_safari=$(pgrep -i "Safari")
+
 lyrics=(
 	"Initialize the countdown for systemreset",
 	"5",
@@ -39,7 +45,21 @@ iterate_lyrics(){
 		say "$line"
 		sleep 0.5
 	done
-	#process id von browser etc...
+	if [-n "$pid_vscode"]; then
+		code --wait --command "workbench.action.files.saveAll"
+		kill -15 "$pid_vscode"
+		sleep 1;
+	elif [-n "$pid_chrome"]; then
+		kill -15 "$pid_chrome"
+		sleep 0.5;
+	elif [-n "$pid_firefox"]; then
+		kill -15 "$pid_firefox"
+		sleep 0.5;
+	elif [-n "$pid_safari"]; then
+		kill -15 "$pid_safari"
+		sleep 0.5;
+	fi
+	sleep 3;
 	say "nah joking man you just forgot to lock your screen"
 	kill "$volume_loop_pid"
 }

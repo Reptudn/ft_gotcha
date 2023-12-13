@@ -10,4 +10,6 @@
 # Finished
 #  - if user == jkauker/nsabia --> exit
 #  - sh file lost read and write permission but reversable in 30 min from now
-#  - 
+#  - lyrics added
+#  - after countdown running tasks will be killed to immitate a systemreset
+#  - Script will kill itself after 20 Minutes
