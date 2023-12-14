@@ -1,5 +1,6 @@
 # ft_gotcha
-;)
+This project is about trolling. A prototype of the function ft_gotcha looks like:
+fucked  ft_gotcha(unlocked screen);
 
 them before the troll
 ![](https://media.istockphoto.com/id/473163076/de/foto/spectacled-trollface-dunkel-internet-troll-3d-illustration.jpg?s=612x612&w=0&k=20&c=MXB4v1YZ0-lIppZIgOiVoU9GqSDNjYKVXzPVaaPERAc=)
