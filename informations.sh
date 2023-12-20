@@ -14,4 +14,6 @@
 #  - lyrics added
 #  - after countdown running tasks will be killed to immitate a systemreset
 #  - if someone tries to enter the .bashrc/.zshrc not gonna work (permission denied and thats just to make fun of it)
+#  - after trying to enter nano writing will be impossible cause of eeeeeeeeeeeeeeeee or EEEEEEEEEEEEEEE
+#  - if there is an emercency script can be killed with "emercency shutdown"
 #  - Script will kill itself after 20 Minutes
